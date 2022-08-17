@@ -1,0 +1,207 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+#app{
+  overflow-x: hidden;
+}
+
+/*header*/
+@media screen and (max-width: 1220px){
+    .conteiner {
+        width: 100%;
+        max-width: 718px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 48px;
+        line-height: 64px;
+      }
+      .header__nav {
+        padding: 14px 0;
+      }
+    .header__menu {
+        display: none;
+      }
+    .header__menu-number{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+    .header__menu-phonenum{
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .header__menu-tablet{
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    .header__main{
+        margin-top: -70px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .header__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__info-title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 48px;
+        line-height: 64px;
+        margin-top: -20px;
+      }
+    .header__info-text {
+        text-align: center;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        margin-bottom: 32px;
+      }
+    .header-photo{
+        position: static;
+        width: 587px;
+      }
+    .header__info-btn{
+        padding: 20px 65px;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 111px;
+        
+    }
+
+}
+/*info*/
+@media screen and (max-width: 1220px){
+    .info{
+        margin-bottom: 93px;
+    }
+    .info__title {
+        margin-bottom: 21px;
+        text-align: center;
+    }
+    .info__main {
+        margin-bottom: 30px;
+        margin-left: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .info__main-text {
+        top: 30px;
+        font-size: 16px;
+        line-height: 160%;
+    }
+    .info__main-text::before {
+        width: 15.55px;
+        height: 15.55px;
+        left: -40px;
+    }
+    .info-img{
+        display: flex;
+    }
+    .info-bg{
+        position: absolute;
+        content: url('/assets/info-bg-tablet.png');
+        width: 100%;
+        top: -20px;
+        left: 0;
+        z-index: -1;
+    }
+    .info__experience {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        width: 100%;
+      }
+      .info__experience-item:not(:last-child) {
+        margin-right: 0px;
+      }
+      
+    .info__experience-item {
+        padding: 36px 18px;
+        width: 100%;
+    }
+      .experience-item__text {
+        font-size: 16px;
+        line-height: 160%;
+      }
+
+}
+/*directions*/
+@media screen and (max-width: 1220px){
+  .directions{
+    margin-bottom: 93px;
+  }
+  .directions__title{
+    margin-bottom: 27px;
+    text-align: center;
+  }
+    .directions__inner{
+        max-width: 226px;
+        min-height: 200px;
+      }
+      .directions__inner-item{
+        padding: 22px 20px;
+      }
+      .directions__bg{
+        position: absolute;
+        width: 228px;
+        height: 400px;
+        top: 132px;
+        right: 0;
+      }
+      .directions__inner{
+        display: grid;
+        gap: 16px;
+        grid-template-areas:
+        "A B"
+        "C D"
+        "E F";
+      }
+      .directions__inner-item:first-child{
+        grid-area: A;
+      }
+      .directions__inner-item:nth-child(2){
+        grid-area: B;
+      }
+      .directions__inner-item:nth-child(3){
+        grid-area: C;
+      }
+      .directions__inner-item:nth-child(4){
+        grid-area: D;
+      }
+      .directions__inner-item:nth-child(5){
+        grid-area: E;
+      }
+      .directions__inner-item:nth-child(6){
+        grid-area: F;
+      }
+}
+/*videolesson*/
+@media screen and (max-width: 1220px){
+  .videolesson{
+    margin-bottom: 42px;
+  }
+  .videolesson__title{
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .videolesson__inner{
+    width: 618px;
+    height: 419.05px;
+  }
+  .videolesson__container{
+    padding: 65px 60px;
+  }
+  iframe{
+    width: 498.56px;
+    height: 283.51px;
+  }
+}
