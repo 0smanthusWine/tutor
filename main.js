@@ -16,9 +16,13 @@ import Splide from '@splidejs/splide';
 new Splide( '.splide' ).mount();
 
 
-let menu = document.getElementById('menuButton');
-let activeMenu = document.getElementById('mainMenu');
-let closeBtn = document.getElementById('closeMenu');
+let menu = document.getElementById('menuButton')
+let activeMenu = document.getElementById('mainMenu')
+let closeBtn = document.getElementById('closeMenu')
+let item1 = document.getElementById('item1');
+let item2 = document.getElementById('item2');
+let item3 = document.getElementById('item3');
+let item4 = document.getElementById('item4');
 
 menu.addEventListener("click", () => {
     activeMenu .style.display = "inherit"
@@ -26,6 +30,19 @@ menu.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
     activeMenu .style.display = "none"
 })
+item1.addEventListener("click", () => {
+    activeMenu .style.display = "none"
+})
+item2.addEventListener("click", () => {
+    activeMenu .style.display = "none"
+})
+item3.addEventListener("click", () => {
+    activeMenu .style.display = "none"
+})
+item4.addEventListener("click", () => {
+    activeMenu .style.display = "none"
+})
+
 
 
 

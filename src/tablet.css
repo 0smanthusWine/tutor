@@ -24,15 +24,13 @@
     height: 100%;
     z-index: 10;
     margin-left: 54%;
+    overflow-y: scroll;
   }
   @keyframes ani {
     0% {transform: translateX(150%);}
     100% {transform: translateY(0);}
   }
-  @keyframes animate {
-    100% {transform: translateX(150%);}
-    0% {transform: translateY(0);}
-  }
+
   .main__menu-items{
     display: flex;
     flex-direction: column;
@@ -42,6 +40,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
+    
   }
   .main__menu-btn{
     background-image: url('/assets/close-button.svg');
