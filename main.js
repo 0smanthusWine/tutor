@@ -16,6 +16,18 @@ import Splide from '@splidejs/splide';
 new Splide( '.splide' ).mount();
 
 
+let menu = document.getElementById('menuButton');
+let activeMenu = document.getElementById('mainMenu');
+let closeBtn = document.getElementById('closeMenu');
+
+menu.addEventListener("click", () => {
+    activeMenu .style.display = "inherit"
+})
+closeBtn.addEventListener("click", () => {
+    activeMenu .style.display = "none"
+})
+
+
 
 
 
