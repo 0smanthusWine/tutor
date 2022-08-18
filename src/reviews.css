@@ -1,5 +1,12 @@
 .review {
   margin-bottom: 136px;
+  position: relative;
+}
+.review-bg{
+  position: absolute;
+    top: 0px;
+    left: -950px;
+    z-index: -1;
 }
 
 .review__title {

@@ -109,9 +109,8 @@
     .info-bg{
         position: absolute;
         content: url('/assets/info-bg-tablet.png');
-        width: 100%;
+        width: 190%;
         top: -20px;
-        left: 0;
         z-index: -1;
     }
     .info__experience {
@@ -189,9 +188,19 @@
   .videolesson{
     margin-bottom: 42px;
   }
+  .bg{
+    content: url('/assets/background.svg');
+    position: absolute;
+    top: -500px;
+    left: -360px;
+    z-index: -1;
+  }
   .videolesson__title{
     margin-bottom: 15px;
     text-align: center;
+    font-weight: 400;
+    font-size: 24.48px;
+    line-height: 33px;
   }
   .videolesson__inner{
     width: 618px;
@@ -203,5 +212,110 @@
   iframe{
     width: 498.56px;
     height: 283.51px;
+  }
+}
+/*lessons*/
+@media screen and (max-width: 1220px){
+  .lessons {
+    margin-bottom: 122px;
+  }
+  .lessons__title {
+    font-weight: 400;
+    font-size: 24.48px;
+    line-height: 33px;
+  }
+  .lessons__header-text {
+    margin-bottom: 40px;
+  }
+  .lessons__content-item {
+    width: 225px;
+    height: 201px;
+    padding: 22px 19px 22px 19px;
+  }
+  .lessons__item-title {
+    margin-bottom: 31px;
+  }
+  .lessons__item-text {
+    margin-bottom: 31px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .lessons__item-btn {
+    font-size: 20px;
+    line-height: 27px;
+    padding: 9px 33px;
+    margin-left: 5px;
+  }
+  .lessons__sale {
+    width: 109px;
+    height: 112px;
+    top: -69px;
+    right: -40px;
+  }
+}
+/*reviews*/
+@media screen and (max-width: 1220px){
+  .review {
+    margin-bottom: 73px;
+  }
+  .review-bg{
+    content: url('/assets/reviews-bg.svg');
+    position: absolute;
+    top: -60px;
+    left: -700px;
+    z-index: -1;
+  }
+  .review__title{
+    display: none;
+  }
+  .splide__item{
+    width: 468px;
+    height: 338px;
+    min-height: 338px;
+    padding: 47px 51px 17px 51px;
+  }
+  .splide__item-text {
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 18px;
+  }
+  .splide__item-title{
+    text-align: right;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+  .splide__item-foto {
+    position: absolute;
+    top: -57px;
+    left: -57px;
+    width: 118px;
+    height: 118px;
+  }
+  .splide__arrows{
+    display: none;
+  }
+}
+/*footer*/
+@media screen and (max-width: 1220px){
+  .footer__wrapper {
+    padding-top: 29px;
+    padding-bottom: 28px;
+    flex-direction: column;
+  }
+  .footer__phone {
+    text-align: center;
+    margin-bottom: 27px;
+  }
+  .footer__social{
+    gap: 83px;
+    margin-bottom: 27px;
+  }
+  .footer__link-item{
+    text-align: center;
+  }
+  .footer__link-item:not(:last-child){
+    margin-bottom: 21px;
+    
   }
 }
