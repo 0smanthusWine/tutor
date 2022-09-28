@@ -78,10 +78,13 @@
 
 .info-bg{
   position: absolute;
-  top: -180px;
-  left: -350px;
+  top: -150px;
+  left: -930px;
   z-index: -1;
 }
 .info-img{
+  display: none;
+}
+.info__experience-img {
   display: none;
 }
