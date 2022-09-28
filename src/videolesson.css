@@ -1,17 +1,11 @@
 .videolesson{
-  position: relative;
   margin-bottom: 142px;
 }
 
 .videolesson__title{
   margin-bottom: 75px;
 }
-.bg{
-  position: absolute;
-  top: 200px;
-  left: -950px;
-  z-index: -1;
-}
+
 .videolesson__inner{
   width: 944px;
   height: 674px;

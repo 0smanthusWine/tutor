@@ -1,12 +1,17 @@
 .review {
   margin-bottom: 136px;
+}
+
+.review__wrapper {
   position: relative;
 }
-.review-bg{
+
+.review__background {
   position: absolute;
-    top: 0px;
-    left: -950px;
-    z-index: -1;
+  inset: 0;
+  background-image: url("/assets/bg/reviews.svg");
+  background-size: cover;
+  background-position: center;
 }
 
 .review__title {
@@ -70,10 +75,10 @@
 }
 
 .splide__arrow--prev{
-  background-image: url('assets/arrowleft.svg');
+  background-image: url('/assets/arrowleft.svg');
   margin-right: 1056px;
 }
 
 .splide__arrow--next{
-  background-image: url('assets/arrowright.svg');
+  background-image: url('/assets/arrowright.svg');
 }
