@@ -1,1 +1,1 @@
-https://dazzling-sable-27f62f.netlify.app/
+https://kononovaeducation.netlify.app/
